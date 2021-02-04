@@ -1,9 +1,9 @@
 FROM devopsedu/webapp
 
-MAINTAINER Ram Dittakavi <ramdittakavi@gmail.com>
+MAINTAINER Debajyoti Saha
 
 #Update Repository
-RUN apt-get update -y
+#RUN apt-get update -y
 
 #Install Apache
 RUN apt-get install -y apache2
